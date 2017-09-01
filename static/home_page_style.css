@@ -1,6 +1,4 @@
-
-
-@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
 
 body{
 	margin: 0px auto;
@@ -13,68 +11,34 @@ body{
 }
 
 
-#nav-bar-top{
-	width: 100%;
-	height: auto;
-	background-color: #e8e8e8;
-	padding: 2px;
-}
-
-#nav-postion-right{
-	display: flex;
-	flex-direction: row;
-	margin: 5px;
-
-}
-
-.nav-link{
-	padding: 20px;
-	cursor: pointer;
-}
-
-.nav-link:hover{
-	transition: 0.5 ease-in-ease-out;
-	color:#333;
-	border-bottom: solid 2px #555;
-	
-}
-
-
-nav li{
-	text-decoration: none;
-	list-style: none;
-	float: right;
-}
-
-#logo-link{
-	width: 50px;
-	height: 50px;
-	background-color: #452;
-}
-
 .wrapper{
 	display: block;
 	margin: 0px auto
 	width: 100%;
 	height: 100%;
-	background-color: #e8e8e8;
+	background-color: #f9f9f9;
 
 }
 
 #main-container{
 	margin: 0px auto;
-	width: 800px;
-	height: 500px;
-	background-color: #e8e8e8;
+	width: 100%;
+	height: 700px;
+	background-color: #f9f9f9;
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+
 
 }
+
 
 .text-container{
 	position: relative;
 	top:100px;
 	width: 50%;
 	height: 60%;
-	background-color: #e8e8e8;
+	background-color: inherit;
 	text-align: center;
 	vertical-align: middle;
 	word-wrap: normal;
@@ -83,13 +47,15 @@ nav li{
 
 
 .text-style-nice{
+	padding: 10px;
+	margin: 15px;
 	position: relative;
 	top:70px;
 	text-align: center;
 	vertical-align: middle;
 	color: #333;
-	font-size: 25px;
-	font-family: 'Anton', sans-serif;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .svg-resize-color{
@@ -97,7 +63,7 @@ nav li{
 	height: 200px;
 	position: relative;
 	top:150px;
-	left: 50px;
+	left: 250px;
 	fill:currentColor;
 	
 }
@@ -166,7 +132,7 @@ nav li{
 	margin: 25px;
 	width: 400px;
 	height: 400px auto;
-	background-color: #f7f7f7;
+	background-color: #F2E6D8;
 	box-shadow: 7px 7px 7px #e0dede;
 }
 
@@ -188,7 +154,7 @@ nav li{
 	margin-left:10px;
 	font-size: 18px;
 	font-family: 'Anton', sans-serif;
-	color:#15c492;
+	color:#1D2540;
 }
 
 #project_name:hover{
@@ -216,4 +182,20 @@ a{
 	width: 100%;
 	height: 100px;
 	background-color: #262424;
+}
+
+
+
+#main-container2{
+	width: 100%;
+	height: 800px;
+	background-color: #10143d;
+	background-attachment: fixed;
+}
+
+#main-container3{
+	width: 100%;
+	height: 800px;
+	background-color: #fff;
+	background-attachment: fixed;
 }
